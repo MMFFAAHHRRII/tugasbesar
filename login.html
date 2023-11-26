@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | F Auto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-200">
+    <div class="h-72 w-full bg-[url('img/login-bg.jpg')] bg-cover bg-center"></div>
+    <div id="loginContainer" class="bg-white mt-20 mx-auto shadow-md rounded-md w-96 text-center">
+        <div class="h-96 text-2xl my-20 text-center">
+            <p class="mb-9 pt-8">Login to F Auto</p>
+            <p class="flex text-gray-700 text-lg font-bold  mx-8">Username</p>
+            <input class="flex shadow-md appearance-none border rounded ml-10 mt-2 text-lg py-2 px-2 text-gray-700" type="text" placeholder="Username" id="username">
+            
+            <p class="flex text-gray-700 text-lg font-bold text-left mx-8 pt-8">Password</p>
+            <input class="flex shadow-md appearance-none border rounded ml-10 mt-2 text-lg py-2 px-2 text-gray-700" type="password" placeholder="Password" id="password">
+
+            <div class="flex ml-10 mt-6 items-center justify-between">
+                <button id="loginButton" class="bg-blue-500 hover:bg-blue-700 text-white text-sm font-bold py-2 px-4 rounded focus:outline-none" type="button">
+                    Sign In
+                </button>
+
+                <div id="userIcon" class="hidden text-2xl">&#128100;</div>
+
+                <script src="js/main.js"></script>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-white text-center pt-24">@Copyright by 21552011177_Mochamad Fahrisah_TIF 221PB</footer>
+</body>
+</html>
